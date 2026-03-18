@@ -1,0 +1,33 @@
+.all--posts {
+  padding: 95px 0;
+  background-color: #dcdcec;
+}
+
+.all--posts .title {
+  margin-bottom: 65px;
+}
+.all--posts__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.all--posts__item {
+  background-color: #fff;
+}
+.all--posts__title {
+  width: 340px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 15px;
+  color: #232536;
+}
+
+.all--posts__text {
+  width: 340px;
+  margin-bottom: 25px;
+}
+.all--posts__box {
+  padding: 30px;
+}

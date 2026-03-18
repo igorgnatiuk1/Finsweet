@@ -1,0 +1,30 @@
+.service-hero {
+  padding: 100px 0;
+  background-color: #ffe6d2;
+  & .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.service-hero__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #232536;
+  width: 630px;
+  margin-bottom: 25px;
+}
+.service-hero__text {
+  width: 620px;
+  margin-bottom: 40px;
+}
+.services-hero__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.services-hero__link {
+  font-weight: 600;
+  font-size: 24px;
+  color: #232536;
+}

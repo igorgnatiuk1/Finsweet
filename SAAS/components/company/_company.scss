@@ -1,0 +1,33 @@
+.company {
+  padding: 100px 0;
+}
+
+.company__title {
+  margin-bottom: 25px;
+}
+.company__text {
+  width: 720px;
+  margin-bottom: 65px;
+}
+.company__list--img {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  &::after {
+    content: "";
+
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    width: 345px;
+    height: 15px;
+    background: linear-gradient(
+      to right,
+      #ff9f43 33%,
+      #ffd8a8 33% 66%,
+      #4f46e5 66%
+    );
+  }
+}

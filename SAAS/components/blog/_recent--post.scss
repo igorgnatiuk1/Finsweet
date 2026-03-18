@@ -1,0 +1,33 @@
+.recent--post {
+  margin-bottom: 65px;
+}
+
+.recent--post__article {
+  display: flex;
+  align-items: center;
+  background-color: #dddde9;
+}
+.recent--post__img {
+  margin-right: 32px;
+}
+.recent--post__title {
+  width: 250px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 15px;
+  color: #232536;
+}
+.recent--post__list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+}
+.recent--post__item {
+  margin-bottom: 0;
+}
+.recent--post__person {
+  display: flex;
+  align-items: center;
+}

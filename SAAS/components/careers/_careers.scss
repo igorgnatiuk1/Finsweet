@@ -1,0 +1,29 @@
+.careers {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.careers__title {
+    
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.careers__text {
+  margin-bottom: 65px;
+}
+.careers__decor {
+  font-weight: 800;
+  font-size: 200px;
+  line-height: 0.5;
+
+  color: #ff9f43;
+  & span:nth-child(1) {
+    color: #4f46e5;
+  }
+  & span:nth-child(2) {
+    color: #ffd8a8;
+  }
+}

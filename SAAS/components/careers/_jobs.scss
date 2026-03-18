@@ -1,0 +1,39 @@
+.jobs {
+  padding: 100px 0;
+}
+.jobs__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.jobs__box {
+  height: 950px;
+
+  background-color: #d1ecee;
+}
+.jobs__list {
+  padding: 78px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+}
+.jobs__item {
+  height: 245px;
+  padding: 48px 0 0 48px;
+  background-color: #fff;
+}
+.job__title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #232536;
+}
+.job__info {
+  margin-bottom: 52px;
+}
+.job__link {
+  font-weight: 500;
+  color: #5d5fef;
+}
