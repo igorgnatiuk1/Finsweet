@@ -21,9 +21,13 @@ html {
 }
 .title {
   font-weight: 600;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 25px;
+  line-height: 35px;
   color: #000000;
+  @media (min-width: 480px) {
+    font-size: 30px;
+  line-height: 40px;
+  }
   @media screen and (min-width: 768px) {
     font-size: 40px;
     line-height: 50px;

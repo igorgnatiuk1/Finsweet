@@ -1,8 +1,8 @@
 .hero {
   background-color: #232536;
   padding: 70px 0;
-    @media screen and (min-width: 1280px) {
-     padding: 100px 0;
+  @media screen and (min-width: 1280px) {
+    padding: 100px 0;
   }
 }
 .hero .container {
@@ -12,12 +12,15 @@
 }
 
 .hero__title {
-  width: 430px;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 30px;
   color: white;
   line-height: 50px;
   margin-bottom: 25px;
+  @media screen and (min-width: 480px) {
+    width: 430px;
+    font-size: 35px;
+  }
   @media screen and (min-width: 1280px) {
     font-size: 56px;
     width: 600px;
@@ -25,9 +28,11 @@
   }
 }
 .hero__text {
-  width: 405px;
   color: #86899b;
   margin-bottom: 32px;
+  @media screen and (min-width: 480px) {
+    width: 405px;
+  }
   @media screen and (min-width: 1280px) {
     width: 520px;
   }
