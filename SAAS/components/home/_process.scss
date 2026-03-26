@@ -5,13 +5,15 @@
   }
 }
 .process__title {
-  width: 425px;
   margin-bottom: 15px;
-   @media screen and (min-width: 768px) {
+  @media (min-width: 480px) {
+    width: 425px;
+  }
+  @media screen and (min-width: 768px) {
     width: 565px;
   }
   @media screen and (min-width: 1280px) {
-   width: 680px;
+    width: 680px;
   }
 }
 .process__list {
@@ -29,12 +31,16 @@
 }
 .process__item {
   position: relative;
-  width: 394px;
-  height: 210px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid #2325362b;
+  @media (min-width: 480px) {
+    width: 395px;
+    height: 210px;
+    padding: 0;
+  }
   & h3 {
     margin-bottom: 10px;
   }
@@ -52,8 +58,11 @@
 }
 
 .process__text {
-  width: 445px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
+  @media (min-width: 480px) {
+    width: 445px;
+    margin-bottom: 50px;
+  }
   @media screen and (min-width: 768px) {
     width: 640px;
     margin-bottom: 70px;

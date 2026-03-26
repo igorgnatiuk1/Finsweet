@@ -13,9 +13,9 @@
   }
 }
 
-.expertise__box {
-  width: 620px;
-}
+// .expertise__box {
+//   width: 620px;
+// }
 .expertise__title {
   margin-bottom: 15px;
   font-size: 30px;
@@ -29,6 +29,12 @@
     width: 620px;
     font-size: 48px;
     line-height: 58px;
+  }
+}
+.expertise__box{
+  margin-bottom: 15px;
+  @media (min-width: 768px) {
+    margin-bottom: 0;
   }
 }
 .expertise__list {
@@ -50,17 +56,21 @@
   }
 }
 .expertise__item {
-  height: 140px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+padding: 15px;
   background-color: white;
 
   &:not(:last-child) {
     margin-bottom: 15px;
   }
-  @media screen and (min-width: 768px) and (max-width: 1279px) {
+  @media (min-width: 480px) {
+    padding: 0;
+      height: 140px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  @media screen and (min-width: 768px){
     width: 325px;
   }
   @media screen and (min-width: 1280px) {
@@ -68,10 +78,8 @@
   }
 }
 .expertise__content {
-  width: 400px;
-  margin-bottom: 15px;
-  @media screen and (min-width: 768px) {
-    margin-bottom: 0;
+  @media (min-width: 480px) {
+    width: 400px;
   }
 }
 .expertise__text {
@@ -91,7 +99,6 @@
     margin-right: 15px;
     margin-bottom: 0;
   }
-  
 }
 // .box {
 //   position: relative;
