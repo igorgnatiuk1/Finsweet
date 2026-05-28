@@ -8,8 +8,10 @@
   font-size: 30px;
   line-height: 45px;
   color: #232536;
-  width: 360px;
   margin-bottom: 25px;
+  @media (min-width: 768px) {
+    width: 360px;
+  }
   @media (min-width: 1280px) {
     font-size: 36px;
     line-height: 54px;
@@ -19,14 +21,16 @@
 .services-block__list {
   margin-bottom: 95px;
 }
-.services-block__box{
+.services-block__box {
   margin-bottom: 20px;
   @media (min-width: 768px) {
     margin-bottom: 0;
   }
 }
 .services-block__content {
-  width: 350px;
+  @media (min-width: 768px) {
+    width: 350px;
+  }
   @media (min-width: 1280px) {
     width: 623px;
   }
@@ -46,7 +50,7 @@
   }
 }
 .services-block__img {
-  width: 315px;
+  width: 400px;
   @media (min-width: 768px) {
     width: 315px;
   }

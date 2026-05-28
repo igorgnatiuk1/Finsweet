@@ -1,16 +1,38 @@
-.vision{
+.vision {
+  padding: 50px 0;
+  @media (min-width: 768px) {
     padding: 100px 0;
+  }
 }
 
 .vision__title {
+  //   font-weight: 600;
+  //   font-size: 36px;
+  //   line-height: 54px;
+  //   color: #232536;
+  //   width: 700px;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 54px;
-  color: #232536;
-  width: 700px;
+  font-size: 25px;
+  line-height: 35px;
+  color: #000000;
   margin-bottom: 25px;
+  @media (min-width: 480px) {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 48px;
+    line-height: 58px;
+    width: 920px;
+  }
 }
-.vision__text{
+.vision__text {
+  margin-bottom: 60px;
+  @media (min-width: 768px) {
     width: 630px;
-    margin-bottom: 60px;
+  }
 }

@@ -1,12 +1,30 @@
 .home--services {
   background-color: #ffe6d2;
-  padding: 70px 0;
-  @media screen and (min-width: 1280px) {
+  padding: 50px 0;
+  @media (min-width: 768px) {
     padding: 100px 0;
   }
 }
 .home--services__title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  color: #000000;
   margin-bottom: 40px;
+  @media (min-width: 480px) {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 555px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 665px;
+    font-size: 48px;
+    line-height: 58px;
+  }
 }
 .home--services__button {
   font-weight: 500;

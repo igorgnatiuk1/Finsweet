@@ -12,11 +12,15 @@
   padding-bottom: 65px;
 }
 .footer__title {
+  font-weight: 600;
   font-size: 27px;
+  line-height: 35px;
   width: 260px;
   margin-bottom: 25px;
+  color: #000000;
   @media screen and (min-width: 1280px) {
     font-size: 48px;
+    line-height: 58px;
     width: 530px;
     margin-bottom: 40px;
   }
