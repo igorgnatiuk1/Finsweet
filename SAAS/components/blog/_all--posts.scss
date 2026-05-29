@@ -7,8 +7,25 @@
   }
 }
 
-.all--posts .title {
-  margin-bottom: 65px;
+.all--posts--title {
+   font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  color: #000000;
+    margin-bottom: 65px;
+  @media (min-width: 480px) {
+    font-size: 30px;
+  line-height: 40px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
 }
 .all--posts__list {
   display: grid;

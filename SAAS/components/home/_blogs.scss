@@ -5,12 +5,22 @@
   }
   &__title {
     font-weight: 600;
-    font-size: 22px;
-    margin-bottom: 50px;
-    color: #000;
-    @media (min-width: 480px) {
-      font-size: 25px;
-    }
+  font-size: 25px;
+  line-height: 35px;
+  color: #000000;
+  margin-bottom: 50px;
+  @media (min-width: 480px) {
+    font-size: 30px;
+  line-height: 40px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 48px;
+    line-height: 58px;
+  }
   }
 }
 .blogs__list {
@@ -47,6 +57,11 @@
   }
 }
 .blogs__link {
+  display: inline-block;
   font-weight: 500;
   color: #444cfc;
+  &:hover{
+    transform: scale(1.2);
+   
+  }
 }

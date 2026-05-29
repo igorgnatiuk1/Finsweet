@@ -33,6 +33,9 @@
   padding: 20px 32px;
   margin-bottom: 80px;
   cursor: pointer;
+   &:hover{
+    background-color: #5e65f9;
+  }
 }
 .home--secvices__list {
   display: flex;
@@ -66,19 +69,7 @@
 .home--services__card {
   margin-bottom: 15px;
 }
-// .services__content{
-//     position: relative;
-//   &::after {
-//     position: absolute;
-//     content: "";
-//     left: 0;
-//     top: -65px;
-//     width: 47px;
-//     height: 47px;
-//     border-radius: 50%;
-//     background-color: #ecd6c3;
-//   }
-// }
+
 .home--services__subtitle {
   margin-bottom: 10px;
 }

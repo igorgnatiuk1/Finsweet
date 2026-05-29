@@ -43,6 +43,9 @@
   padding: 20px 32px;
   background-color: #444cfc;
   cursor: pointer;
+  &:hover{
+    background-color: #5e65f9;
+  }
 }
 .hero__img {
   display: none;

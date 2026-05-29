@@ -2,7 +2,6 @@
   padding: 50px 0;
   @media (min-width: 768px) {
     padding: 100px 0;
-    
   }
 }
 .jobs__title {
@@ -51,6 +50,10 @@
   margin-bottom: 52px;
 }
 .job__link {
+  display: inline-block;
   font-weight: 500;
   color: #5d5fef;
+  &:hover {
+    transform: scale(1.2);
+  }
 }
